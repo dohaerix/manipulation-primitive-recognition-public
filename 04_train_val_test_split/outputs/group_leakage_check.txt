@@ -1,0 +1,3 @@
+Total groups: 3854
+Leaking groups: 0
+Max splits per group: 1

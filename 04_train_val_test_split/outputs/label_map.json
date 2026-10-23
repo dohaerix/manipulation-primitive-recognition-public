@@ -1,0 +1,12 @@
+{
+  "Reach": 0,
+  "Move": 1,
+  "Pick": 2,
+  "Place": 3,
+  "Retract": 4,
+  "Grasp": 5,
+  "Tilt": 6,
+  "Release": 7,
+  "Mop": 8,
+  "Give": 9
+}

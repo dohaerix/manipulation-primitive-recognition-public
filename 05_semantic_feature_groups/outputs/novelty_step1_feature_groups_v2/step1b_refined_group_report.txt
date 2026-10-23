@@ -1,0 +1,32 @@
+Step 1B Refined Feature Grouping Report
+================================================================================
+Total original features: 196
+Action features mapped: 188
+Support features removed: ['interpolated', 'missing_run_length', 'phase_early', 'phase_late', 'phase_middle', 'time01', 'valid', 'valid_ratio']
+
+Refined group summary:
+          feature_group  n_features                                                                                                                                                    example_features
+trajectory_displacement          27                                                                   wrist_direction_x, wrist_direction_y, wrist_direction_z, wrist_disp_x, wrist_disp_y, wrist_disp_z
+        finger_distance          23                                                      tip_to_palm_thumb, tip_to_palm_index, tip_to_palm_middle, tip_to_palm_ring, tip_to_palm_pinky, tip_to_palm_std
+            bone_length          22                                                                bone_length_0_1, bone_length_1_2, bone_length_2_3, bone_length_3_4, bone_length_0_5, bone_length_5_6
+         velocity_speed          20                                                                                          wrist_vel_x, wrist_vel_y, wrist_vel_z, wrist_speed, palm_vel_x, palm_vel_y
+           acceleration          19                                                                                        wrist_acc_x, wrist_acc_y, wrist_acc_z, wrist_acc_mag, palm_acc_x, palm_acc_y
+   oscillation_reversal          18 wrist_osc_reversal_strength, wrist_osc_rolling_reversal_strength, wrist_osc_zero_cross_x, wrist_osc_zero_cross_y, wrist_osc_zero_cross_z, wrist_osc_local_speed_std
+            joint_angle          16                                  joint_angle_a0_b1_c2, joint_angle_a1_b2_c3, joint_angle_a2_b3_c4, joint_angle_a0_b5_c6, joint_angle_a5_b6_c7, joint_angle_a6_b7_c8
+                   jerk          12                                                                                  wrist_jerk_x, wrist_jerk_y, wrist_jerk_z, wrist_jerk_mag, palm_jerk_x, palm_jerk_y
+       raw_global_shape          12                                                                      raw_wrist_x, raw_wrist_y, raw_wrist_z, raw_palm_center_x, raw_palm_center_y, raw_palm_center_z
+            finger_curl           6                                                     finger_curl_thumb, finger_curl_index, finger_curl_middle, finger_curl_ring, finger_curl_pinky, mean_finger_curl
+       palm_orientation           4                                                                                                palm_normal_x, palm_normal_y, palm_normal_z, palm_orientation_change
+        hand_shape_bbox           3                                                                                                                   norm_bbox_width, norm_bbox_height, norm_bbox_area
+  oscillation_curvature           3                                                                                                                 wrist_curvature, palm_curvature, centroid_curvature
+          hand_openness           1                                                                                                                                                       hand_openness
+ hand_shape_compactness           1                                                                                                                                                    hand_compactness
+        palm_shape_area           1                                                                                                                                                      norm_palm_area
+
+Output files:
+- novelty_step1_feature_groups_v2/feature_group_mapping_action_only_v2.csv
+- novelty_step1_feature_groups_v2/feature_group_mapping_action_only_v2.json
+- novelty_step1_feature_groups_v2/feature_group_summary_action_only_v2.csv
+
+Interpretation:
+This refined grouping avoids putting all palm-related motion features into palm_orientation. It separates palm velocity/acceleration/jerk/oscillation into temporal-motion groups, which is more appropriate for semantic feature-group masking.

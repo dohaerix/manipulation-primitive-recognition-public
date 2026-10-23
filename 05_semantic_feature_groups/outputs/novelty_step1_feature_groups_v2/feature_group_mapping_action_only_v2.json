@@ -1,0 +1,1130 @@
+[
+  {
+    "model_input_index_0based": 0,
+    "original_feature_index_0based": 8,
+    "feature_name": "raw_wrist_x",
+    "feature_group": "raw_global_shape"
+  },
+  {
+    "model_input_index_0based": 1,
+    "original_feature_index_0based": 9,
+    "feature_name": "raw_wrist_y",
+    "feature_group": "raw_global_shape"
+  },
+  {
+    "model_input_index_0based": 2,
+    "original_feature_index_0based": 10,
+    "feature_name": "raw_wrist_z",
+    "feature_group": "raw_global_shape"
+  },
+  {
+    "model_input_index_0based": 3,
+    "original_feature_index_0based": 11,
+    "feature_name": "raw_palm_center_x",
+    "feature_group": "raw_global_shape"
+  },
+  {
+    "model_input_index_0based": 4,
+    "original_feature_index_0based": 12,
+    "feature_name": "raw_palm_center_y",
+    "feature_group": "raw_global_shape"
+  },
+  {
+    "model_input_index_0based": 5,
+    "original_feature_index_0based": 13,
+    "feature_name": "raw_palm_center_z",
+    "feature_group": "raw_global_shape"
+  },
+  {
+    "model_input_index_0based": 6,
+    "original_feature_index_0based": 14,
+    "feature_name": "raw_centroid_x",
+    "feature_group": "raw_global_shape"
+  },
+  {
+    "model_input_index_0based": 7,
+    "original_feature_index_0based": 15,
+    "feature_name": "raw_centroid_y",
+    "feature_group": "raw_global_shape"
+  },
+  {
+    "model_input_index_0based": 8,
+    "original_feature_index_0based": 16,
+    "feature_name": "raw_centroid_z",
+    "feature_group": "raw_global_shape"
+  },
+  {
+    "model_input_index_0based": 9,
+    "original_feature_index_0based": 17,
+    "feature_name": "raw_bbox_width",
+    "feature_group": "raw_global_shape"
+  },
+  {
+    "model_input_index_0based": 10,
+    "original_feature_index_0based": 18,
+    "feature_name": "raw_bbox_height",
+    "feature_group": "raw_global_shape"
+  },
+  {
+    "model_input_index_0based": 11,
+    "original_feature_index_0based": 19,
+    "feature_name": "raw_bbox_area",
+    "feature_group": "raw_global_shape"
+  },
+  {
+    "model_input_index_0based": 12,
+    "original_feature_index_0based": 20,
+    "feature_name": "wrist_vel_x",
+    "feature_group": "velocity_speed"
+  },
+  {
+    "model_input_index_0based": 13,
+    "original_feature_index_0based": 21,
+    "feature_name": "wrist_vel_y",
+    "feature_group": "velocity_speed"
+  },
+  {
+    "model_input_index_0based": 14,
+    "original_feature_index_0based": 22,
+    "feature_name": "wrist_vel_z",
+    "feature_group": "velocity_speed"
+  },
+  {
+    "model_input_index_0based": 15,
+    "original_feature_index_0based": 23,
+    "feature_name": "wrist_speed",
+    "feature_group": "velocity_speed"
+  },
+  {
+    "model_input_index_0based": 16,
+    "original_feature_index_0based": 24,
+    "feature_name": "wrist_acc_x",
+    "feature_group": "acceleration"
+  },
+  {
+    "model_input_index_0based": 17,
+    "original_feature_index_0based": 25,
+    "feature_name": "wrist_acc_y",
+    "feature_group": "acceleration"
+  },
+  {
+    "model_input_index_0based": 18,
+    "original_feature_index_0based": 26,
+    "feature_name": "wrist_acc_z",
+    "feature_group": "acceleration"
+  },
+  {
+    "model_input_index_0based": 19,
+    "original_feature_index_0based": 27,
+    "feature_name": "wrist_acc_mag",
+    "feature_group": "acceleration"
+  },
+  {
+    "model_input_index_0based": 20,
+    "original_feature_index_0based": 28,
+    "feature_name": "wrist_jerk_x",
+    "feature_group": "jerk"
+  },
+  {
+    "model_input_index_0based": 21,
+    "original_feature_index_0based": 29,
+    "feature_name": "wrist_jerk_y",
+    "feature_group": "jerk"
+  },
+  {
+    "model_input_index_0based": 22,
+    "original_feature_index_0based": 30,
+    "feature_name": "wrist_jerk_z",
+    "feature_group": "jerk"
+  },
+  {
+    "model_input_index_0based": 23,
+    "original_feature_index_0based": 31,
+    "feature_name": "wrist_jerk_mag",
+    "feature_group": "jerk"
+  },
+  {
+    "model_input_index_0based": 24,
+    "original_feature_index_0based": 32,
+    "feature_name": "wrist_direction_x",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 25,
+    "original_feature_index_0based": 33,
+    "feature_name": "wrist_direction_y",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 26,
+    "original_feature_index_0based": 34,
+    "feature_name": "wrist_direction_z",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 27,
+    "original_feature_index_0based": 35,
+    "feature_name": "wrist_disp_x",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 28,
+    "original_feature_index_0based": 36,
+    "feature_name": "wrist_disp_y",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 29,
+    "original_feature_index_0based": 37,
+    "feature_name": "wrist_disp_z",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 30,
+    "original_feature_index_0based": 38,
+    "feature_name": "wrist_disp_mag",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 31,
+    "original_feature_index_0based": 39,
+    "feature_name": "wrist_path_length",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 32,
+    "original_feature_index_0based": 40,
+    "feature_name": "wrist_straightness",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 33,
+    "original_feature_index_0based": 41,
+    "feature_name": "wrist_curvature",
+    "feature_group": "oscillation_curvature"
+  },
+  {
+    "model_input_index_0based": 34,
+    "original_feature_index_0based": 42,
+    "feature_name": "palm_vel_x",
+    "feature_group": "velocity_speed"
+  },
+  {
+    "model_input_index_0based": 35,
+    "original_feature_index_0based": 43,
+    "feature_name": "palm_vel_y",
+    "feature_group": "velocity_speed"
+  },
+  {
+    "model_input_index_0based": 36,
+    "original_feature_index_0based": 44,
+    "feature_name": "palm_vel_z",
+    "feature_group": "velocity_speed"
+  },
+  {
+    "model_input_index_0based": 37,
+    "original_feature_index_0based": 45,
+    "feature_name": "palm_speed",
+    "feature_group": "velocity_speed"
+  },
+  {
+    "model_input_index_0based": 38,
+    "original_feature_index_0based": 46,
+    "feature_name": "palm_acc_x",
+    "feature_group": "acceleration"
+  },
+  {
+    "model_input_index_0based": 39,
+    "original_feature_index_0based": 47,
+    "feature_name": "palm_acc_y",
+    "feature_group": "acceleration"
+  },
+  {
+    "model_input_index_0based": 40,
+    "original_feature_index_0based": 48,
+    "feature_name": "palm_acc_z",
+    "feature_group": "acceleration"
+  },
+  {
+    "model_input_index_0based": 41,
+    "original_feature_index_0based": 49,
+    "feature_name": "palm_acc_mag",
+    "feature_group": "acceleration"
+  },
+  {
+    "model_input_index_0based": 42,
+    "original_feature_index_0based": 50,
+    "feature_name": "palm_jerk_x",
+    "feature_group": "jerk"
+  },
+  {
+    "model_input_index_0based": 43,
+    "original_feature_index_0based": 51,
+    "feature_name": "palm_jerk_y",
+    "feature_group": "jerk"
+  },
+  {
+    "model_input_index_0based": 44,
+    "original_feature_index_0based": 52,
+    "feature_name": "palm_jerk_z",
+    "feature_group": "jerk"
+  },
+  {
+    "model_input_index_0based": 45,
+    "original_feature_index_0based": 53,
+    "feature_name": "palm_jerk_mag",
+    "feature_group": "jerk"
+  },
+  {
+    "model_input_index_0based": 46,
+    "original_feature_index_0based": 54,
+    "feature_name": "palm_direction_x",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 47,
+    "original_feature_index_0based": 55,
+    "feature_name": "palm_direction_y",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 48,
+    "original_feature_index_0based": 56,
+    "feature_name": "palm_direction_z",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 49,
+    "original_feature_index_0based": 57,
+    "feature_name": "palm_disp_x",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 50,
+    "original_feature_index_0based": 58,
+    "feature_name": "palm_disp_y",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 51,
+    "original_feature_index_0based": 59,
+    "feature_name": "palm_disp_z",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 52,
+    "original_feature_index_0based": 60,
+    "feature_name": "palm_disp_mag",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 53,
+    "original_feature_index_0based": 61,
+    "feature_name": "palm_path_length",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 54,
+    "original_feature_index_0based": 62,
+    "feature_name": "palm_straightness",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 55,
+    "original_feature_index_0based": 63,
+    "feature_name": "palm_curvature",
+    "feature_group": "oscillation_curvature"
+  },
+  {
+    "model_input_index_0based": 56,
+    "original_feature_index_0based": 64,
+    "feature_name": "centroid_vel_x",
+    "feature_group": "velocity_speed"
+  },
+  {
+    "model_input_index_0based": 57,
+    "original_feature_index_0based": 65,
+    "feature_name": "centroid_vel_y",
+    "feature_group": "velocity_speed"
+  },
+  {
+    "model_input_index_0based": 58,
+    "original_feature_index_0based": 66,
+    "feature_name": "centroid_vel_z",
+    "feature_group": "velocity_speed"
+  },
+  {
+    "model_input_index_0based": 59,
+    "original_feature_index_0based": 67,
+    "feature_name": "centroid_speed",
+    "feature_group": "velocity_speed"
+  },
+  {
+    "model_input_index_0based": 60,
+    "original_feature_index_0based": 68,
+    "feature_name": "centroid_acc_x",
+    "feature_group": "acceleration"
+  },
+  {
+    "model_input_index_0based": 61,
+    "original_feature_index_0based": 69,
+    "feature_name": "centroid_acc_y",
+    "feature_group": "acceleration"
+  },
+  {
+    "model_input_index_0based": 62,
+    "original_feature_index_0based": 70,
+    "feature_name": "centroid_acc_z",
+    "feature_group": "acceleration"
+  },
+  {
+    "model_input_index_0based": 63,
+    "original_feature_index_0based": 71,
+    "feature_name": "centroid_acc_mag",
+    "feature_group": "acceleration"
+  },
+  {
+    "model_input_index_0based": 64,
+    "original_feature_index_0based": 72,
+    "feature_name": "centroid_jerk_x",
+    "feature_group": "jerk"
+  },
+  {
+    "model_input_index_0based": 65,
+    "original_feature_index_0based": 73,
+    "feature_name": "centroid_jerk_y",
+    "feature_group": "jerk"
+  },
+  {
+    "model_input_index_0based": 66,
+    "original_feature_index_0based": 74,
+    "feature_name": "centroid_jerk_z",
+    "feature_group": "jerk"
+  },
+  {
+    "model_input_index_0based": 67,
+    "original_feature_index_0based": 75,
+    "feature_name": "centroid_jerk_mag",
+    "feature_group": "jerk"
+  },
+  {
+    "model_input_index_0based": 68,
+    "original_feature_index_0based": 76,
+    "feature_name": "centroid_direction_x",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 69,
+    "original_feature_index_0based": 77,
+    "feature_name": "centroid_direction_y",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 70,
+    "original_feature_index_0based": 78,
+    "feature_name": "centroid_direction_z",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 71,
+    "original_feature_index_0based": 79,
+    "feature_name": "centroid_disp_x",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 72,
+    "original_feature_index_0based": 80,
+    "feature_name": "centroid_disp_y",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 73,
+    "original_feature_index_0based": 81,
+    "feature_name": "centroid_disp_z",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 74,
+    "original_feature_index_0based": 82,
+    "feature_name": "centroid_disp_mag",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 75,
+    "original_feature_index_0based": 83,
+    "feature_name": "centroid_path_length",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 76,
+    "original_feature_index_0based": 84,
+    "feature_name": "centroid_straightness",
+    "feature_group": "trajectory_displacement"
+  },
+  {
+    "model_input_index_0based": 77,
+    "original_feature_index_0based": 85,
+    "feature_name": "centroid_curvature",
+    "feature_group": "oscillation_curvature"
+  },
+  {
+    "model_input_index_0based": 78,
+    "original_feature_index_0based": 86,
+    "feature_name": "tip_to_palm_thumb",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 79,
+    "original_feature_index_0based": 87,
+    "feature_name": "tip_to_palm_index",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 80,
+    "original_feature_index_0based": 88,
+    "feature_name": "tip_to_palm_middle",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 81,
+    "original_feature_index_0based": 89,
+    "feature_name": "tip_to_palm_ring",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 82,
+    "original_feature_index_0based": 90,
+    "feature_name": "tip_to_palm_pinky",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 83,
+    "original_feature_index_0based": 91,
+    "feature_name": "hand_openness",
+    "feature_group": "hand_openness"
+  },
+  {
+    "model_input_index_0based": 84,
+    "original_feature_index_0based": 92,
+    "feature_name": "hand_openness_vel",
+    "feature_group": "velocity_speed"
+  },
+  {
+    "model_input_index_0based": 85,
+    "original_feature_index_0based": 93,
+    "feature_name": "hand_openness_acc",
+    "feature_group": "acceleration"
+  },
+  {
+    "model_input_index_0based": 86,
+    "original_feature_index_0based": 94,
+    "feature_name": "tip_to_palm_std",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 87,
+    "original_feature_index_0based": 95,
+    "feature_name": "fingertip_dist_0_1",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 88,
+    "original_feature_index_0based": 96,
+    "feature_name": "fingertip_dist_0_2",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 89,
+    "original_feature_index_0based": 97,
+    "feature_name": "fingertip_dist_0_3",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 90,
+    "original_feature_index_0based": 98,
+    "feature_name": "fingertip_dist_0_4",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 91,
+    "original_feature_index_0based": 99,
+    "feature_name": "fingertip_dist_1_2",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 92,
+    "original_feature_index_0based": 100,
+    "feature_name": "fingertip_dist_1_3",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 93,
+    "original_feature_index_0based": 101,
+    "feature_name": "fingertip_dist_1_4",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 94,
+    "original_feature_index_0based": 102,
+    "feature_name": "fingertip_dist_2_3",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 95,
+    "original_feature_index_0based": 103,
+    "feature_name": "fingertip_dist_2_4",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 96,
+    "original_feature_index_0based": 104,
+    "feature_name": "fingertip_dist_3_4",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 97,
+    "original_feature_index_0based": 105,
+    "feature_name": "mean_fingertip_spread",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 98,
+    "original_feature_index_0based": 106,
+    "feature_name": "thumb_to_finger_index",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 99,
+    "original_feature_index_0based": 107,
+    "feature_name": "thumb_to_finger_middle",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 100,
+    "original_feature_index_0based": 108,
+    "feature_name": "thumb_to_finger_ring",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 101,
+    "original_feature_index_0based": 109,
+    "feature_name": "thumb_to_finger_pinky",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 102,
+    "original_feature_index_0based": 110,
+    "feature_name": "thumb_to_finger_min",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 103,
+    "original_feature_index_0based": 111,
+    "feature_name": "thumb_to_finger_mean",
+    "feature_group": "finger_distance"
+  },
+  {
+    "model_input_index_0based": 104,
+    "original_feature_index_0based": 112,
+    "feature_name": "thumb_index_vel",
+    "feature_group": "velocity_speed"
+  },
+  {
+    "model_input_index_0based": 105,
+    "original_feature_index_0based": 113,
+    "feature_name": "thumb_index_acc",
+    "feature_group": "acceleration"
+  },
+  {
+    "model_input_index_0based": 106,
+    "original_feature_index_0based": 114,
+    "feature_name": "norm_palm_area",
+    "feature_group": "palm_shape_area"
+  },
+  {
+    "model_input_index_0based": 107,
+    "original_feature_index_0based": 115,
+    "feature_name": "norm_bbox_width",
+    "feature_group": "hand_shape_bbox"
+  },
+  {
+    "model_input_index_0based": 108,
+    "original_feature_index_0based": 116,
+    "feature_name": "norm_bbox_height",
+    "feature_group": "hand_shape_bbox"
+  },
+  {
+    "model_input_index_0based": 109,
+    "original_feature_index_0based": 117,
+    "feature_name": "norm_bbox_area",
+    "feature_group": "hand_shape_bbox"
+  },
+  {
+    "model_input_index_0based": 110,
+    "original_feature_index_0based": 118,
+    "feature_name": "hand_compactness",
+    "feature_group": "hand_shape_compactness"
+  },
+  {
+    "model_input_index_0based": 111,
+    "original_feature_index_0based": 119,
+    "feature_name": "finger_curl_thumb",
+    "feature_group": "finger_curl"
+  },
+  {
+    "model_input_index_0based": 112,
+    "original_feature_index_0based": 120,
+    "feature_name": "finger_curl_index",
+    "feature_group": "finger_curl"
+  },
+  {
+    "model_input_index_0based": 113,
+    "original_feature_index_0based": 121,
+    "feature_name": "finger_curl_middle",
+    "feature_group": "finger_curl"
+  },
+  {
+    "model_input_index_0based": 114,
+    "original_feature_index_0based": 122,
+    "feature_name": "finger_curl_ring",
+    "feature_group": "finger_curl"
+  },
+  {
+    "model_input_index_0based": 115,
+    "original_feature_index_0based": 123,
+    "feature_name": "finger_curl_pinky",
+    "feature_group": "finger_curl"
+  },
+  {
+    "model_input_index_0based": 116,
+    "original_feature_index_0based": 124,
+    "feature_name": "mean_finger_curl",
+    "feature_group": "finger_curl"
+  },
+  {
+    "model_input_index_0based": 117,
+    "original_feature_index_0based": 125,
+    "feature_name": "mean_finger_curl_vel",
+    "feature_group": "velocity_speed"
+  },
+  {
+    "model_input_index_0based": 118,
+    "original_feature_index_0based": 126,
+    "feature_name": "mean_finger_curl_acc",
+    "feature_group": "acceleration"
+  },
+  {
+    "model_input_index_0based": 119,
+    "original_feature_index_0based": 127,
+    "feature_name": "joint_angle_a0_b1_c2",
+    "feature_group": "joint_angle"
+  },
+  {
+    "model_input_index_0based": 120,
+    "original_feature_index_0based": 128,
+    "feature_name": "joint_angle_a1_b2_c3",
+    "feature_group": "joint_angle"
+  },
+  {
+    "model_input_index_0based": 121,
+    "original_feature_index_0based": 129,
+    "feature_name": "joint_angle_a2_b3_c4",
+    "feature_group": "joint_angle"
+  },
+  {
+    "model_input_index_0based": 122,
+    "original_feature_index_0based": 130,
+    "feature_name": "joint_angle_a0_b5_c6",
+    "feature_group": "joint_angle"
+  },
+  {
+    "model_input_index_0based": 123,
+    "original_feature_index_0based": 131,
+    "feature_name": "joint_angle_a5_b6_c7",
+    "feature_group": "joint_angle"
+  },
+  {
+    "model_input_index_0based": 124,
+    "original_feature_index_0based": 132,
+    "feature_name": "joint_angle_a6_b7_c8",
+    "feature_group": "joint_angle"
+  },
+  {
+    "model_input_index_0based": 125,
+    "original_feature_index_0based": 133,
+    "feature_name": "joint_angle_a0_b9_c10",
+    "feature_group": "joint_angle"
+  },
+  {
+    "model_input_index_0based": 126,
+    "original_feature_index_0based": 134,
+    "feature_name": "joint_angle_a9_b10_c11",
+    "feature_group": "joint_angle"
+  },
+  {
+    "model_input_index_0based": 127,
+    "original_feature_index_0based": 135,
+    "feature_name": "joint_angle_a10_b11_c12",
+    "feature_group": "joint_angle"
+  },
+  {
+    "model_input_index_0based": 128,
+    "original_feature_index_0based": 136,
+    "feature_name": "joint_angle_a0_b13_c14",
+    "feature_group": "joint_angle"
+  },
+  {
+    "model_input_index_0based": 129,
+    "original_feature_index_0based": 137,
+    "feature_name": "joint_angle_a13_b14_c15",
+    "feature_group": "joint_angle"
+  },
+  {
+    "model_input_index_0based": 130,
+    "original_feature_index_0based": 138,
+    "feature_name": "joint_angle_a14_b15_c16",
+    "feature_group": "joint_angle"
+  },
+  {
+    "model_input_index_0based": 131,
+    "original_feature_index_0based": 139,
+    "feature_name": "joint_angle_a0_b17_c18",
+    "feature_group": "joint_angle"
+  },
+  {
+    "model_input_index_0based": 132,
+    "original_feature_index_0based": 140,
+    "feature_name": "joint_angle_a17_b18_c19",
+    "feature_group": "joint_angle"
+  },
+  {
+    "model_input_index_0based": 133,
+    "original_feature_index_0based": 141,
+    "feature_name": "joint_angle_a18_b19_c20",
+    "feature_group": "joint_angle"
+  },
+  {
+    "model_input_index_0based": 134,
+    "original_feature_index_0based": 142,
+    "feature_name": "mean_joint_angle",
+    "feature_group": "joint_angle"
+  },
+  {
+    "model_input_index_0based": 135,
+    "original_feature_index_0based": 143,
+    "feature_name": "mean_joint_angle_vel",
+    "feature_group": "velocity_speed"
+  },
+  {
+    "model_input_index_0based": 136,
+    "original_feature_index_0based": 144,
+    "feature_name": "bone_length_0_1",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 137,
+    "original_feature_index_0based": 145,
+    "feature_name": "bone_length_1_2",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 138,
+    "original_feature_index_0based": 146,
+    "feature_name": "bone_length_2_3",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 139,
+    "original_feature_index_0based": 147,
+    "feature_name": "bone_length_3_4",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 140,
+    "original_feature_index_0based": 148,
+    "feature_name": "bone_length_0_5",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 141,
+    "original_feature_index_0based": 149,
+    "feature_name": "bone_length_5_6",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 142,
+    "original_feature_index_0based": 150,
+    "feature_name": "bone_length_6_7",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 143,
+    "original_feature_index_0based": 151,
+    "feature_name": "bone_length_7_8",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 144,
+    "original_feature_index_0based": 152,
+    "feature_name": "bone_length_0_9",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 145,
+    "original_feature_index_0based": 153,
+    "feature_name": "bone_length_9_10",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 146,
+    "original_feature_index_0based": 154,
+    "feature_name": "bone_length_10_11",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 147,
+    "original_feature_index_0based": 155,
+    "feature_name": "bone_length_11_12",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 148,
+    "original_feature_index_0based": 156,
+    "feature_name": "bone_length_0_13",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 149,
+    "original_feature_index_0based": 157,
+    "feature_name": "bone_length_13_14",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 150,
+    "original_feature_index_0based": 158,
+    "feature_name": "bone_length_14_15",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 151,
+    "original_feature_index_0based": 159,
+    "feature_name": "bone_length_15_16",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 152,
+    "original_feature_index_0based": 160,
+    "feature_name": "bone_length_0_17",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 153,
+    "original_feature_index_0based": 161,
+    "feature_name": "bone_length_17_18",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 154,
+    "original_feature_index_0based": 162,
+    "feature_name": "bone_length_18_19",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 155,
+    "original_feature_index_0based": 163,
+    "feature_name": "bone_length_19_20",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 156,
+    "original_feature_index_0based": 164,
+    "feature_name": "bone_length_mean",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 157,
+    "original_feature_index_0based": 165,
+    "feature_name": "bone_length_std",
+    "feature_group": "bone_length"
+  },
+  {
+    "model_input_index_0based": 158,
+    "original_feature_index_0based": 166,
+    "feature_name": "palm_normal_x",
+    "feature_group": "palm_orientation"
+  },
+  {
+    "model_input_index_0based": 159,
+    "original_feature_index_0based": 167,
+    "feature_name": "palm_normal_y",
+    "feature_group": "palm_orientation"
+  },
+  {
+    "model_input_index_0based": 160,
+    "original_feature_index_0based": 168,
+    "feature_name": "palm_normal_z",
+    "feature_group": "palm_orientation"
+  },
+  {
+    "model_input_index_0based": 161,
+    "original_feature_index_0based": 169,
+    "feature_name": "palm_normal_vel_x",
+    "feature_group": "velocity_speed"
+  },
+  {
+    "model_input_index_0based": 162,
+    "original_feature_index_0based": 170,
+    "feature_name": "palm_normal_vel_y",
+    "feature_group": "velocity_speed"
+  },
+  {
+    "model_input_index_0based": 163,
+    "original_feature_index_0based": 171,
+    "feature_name": "palm_normal_vel_z",
+    "feature_group": "velocity_speed"
+  },
+  {
+    "model_input_index_0based": 164,
+    "original_feature_index_0based": 172,
+    "feature_name": "palm_angular_speed",
+    "feature_group": "velocity_speed"
+  },
+  {
+    "model_input_index_0based": 165,
+    "original_feature_index_0based": 173,
+    "feature_name": "palm_normal_acc_x",
+    "feature_group": "acceleration"
+  },
+  {
+    "model_input_index_0based": 166,
+    "original_feature_index_0based": 174,
+    "feature_name": "palm_normal_acc_y",
+    "feature_group": "acceleration"
+  },
+  {
+    "model_input_index_0based": 167,
+    "original_feature_index_0based": 175,
+    "feature_name": "palm_normal_acc_z",
+    "feature_group": "acceleration"
+  },
+  {
+    "model_input_index_0based": 168,
+    "original_feature_index_0based": 176,
+    "feature_name": "palm_angular_acc_mag",
+    "feature_group": "acceleration"
+  },
+  {
+    "model_input_index_0based": 169,
+    "original_feature_index_0based": 177,
+    "feature_name": "palm_orientation_change",
+    "feature_group": "palm_orientation"
+  },
+  {
+    "model_input_index_0based": 170,
+    "original_feature_index_0based": 178,
+    "feature_name": "wrist_osc_reversal_strength",
+    "feature_group": "oscillation_reversal"
+  },
+  {
+    "model_input_index_0based": 171,
+    "original_feature_index_0based": 179,
+    "feature_name": "wrist_osc_rolling_reversal_strength",
+    "feature_group": "oscillation_reversal"
+  },
+  {
+    "model_input_index_0based": 172,
+    "original_feature_index_0based": 180,
+    "feature_name": "wrist_osc_zero_cross_x",
+    "feature_group": "oscillation_reversal"
+  },
+  {
+    "model_input_index_0based": 173,
+    "original_feature_index_0based": 181,
+    "feature_name": "wrist_osc_zero_cross_y",
+    "feature_group": "oscillation_reversal"
+  },
+  {
+    "model_input_index_0based": 174,
+    "original_feature_index_0based": 182,
+    "feature_name": "wrist_osc_zero_cross_z",
+    "feature_group": "oscillation_reversal"
+  },
+  {
+    "model_input_index_0based": 175,
+    "original_feature_index_0based": 183,
+    "feature_name": "wrist_osc_local_speed_std",
+    "feature_group": "oscillation_reversal"
+  },
+  {
+    "model_input_index_0based": 176,
+    "original_feature_index_0based": 184,
+    "feature_name": "wrist_osc_local_speed_range",
+    "feature_group": "oscillation_reversal"
+  },
+  {
+    "model_input_index_0based": 177,
+    "original_feature_index_0based": 185,
+    "feature_name": "wrist_osc_elongation_ratio",
+    "feature_group": "oscillation_reversal"
+  },
+  {
+    "model_input_index_0based": 178,
+    "original_feature_index_0based": 186,
+    "feature_name": "wrist_osc_local_tortuosity",
+    "feature_group": "oscillation_reversal"
+  },
+  {
+    "model_input_index_0based": 179,
+    "original_feature_index_0based": 187,
+    "feature_name": "palm_osc_reversal_strength",
+    "feature_group": "oscillation_reversal"
+  },
+  {
+    "model_input_index_0based": 180,
+    "original_feature_index_0based": 188,
+    "feature_name": "palm_osc_rolling_reversal_strength",
+    "feature_group": "oscillation_reversal"
+  },
+  {
+    "model_input_index_0based": 181,
+    "original_feature_index_0based": 189,
+    "feature_name": "palm_osc_zero_cross_x",
+    "feature_group": "oscillation_reversal"
+  },
+  {
+    "model_input_index_0based": 182,
+    "original_feature_index_0based": 190,
+    "feature_name": "palm_osc_zero_cross_y",
+    "feature_group": "oscillation_reversal"
+  },
+  {
+    "model_input_index_0based": 183,
+    "original_feature_index_0based": 191,
+    "feature_name": "palm_osc_zero_cross_z",
+    "feature_group": "oscillation_reversal"
+  },
+  {
+    "model_input_index_0based": 184,
+    "original_feature_index_0based": 192,
+    "feature_name": "palm_osc_local_speed_std",
+    "feature_group": "oscillation_reversal"
+  },
+  {
+    "model_input_index_0based": 185,
+    "original_feature_index_0based": 193,
+    "feature_name": "palm_osc_local_speed_range",
+    "feature_group": "oscillation_reversal"
+  },
+  {
+    "model_input_index_0based": 186,
+    "original_feature_index_0based": 194,
+    "feature_name": "palm_osc_elongation_ratio",
+    "feature_group": "oscillation_reversal"
+  },
+  {
+    "model_input_index_0based": 187,
+    "original_feature_index_0based": 195,
+    "feature_name": "palm_osc_local_tortuosity",
+    "feature_group": "oscillation_reversal"
+  }
+]
