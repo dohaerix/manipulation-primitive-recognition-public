@@ -17,6 +17,6 @@ This step decides which clips are used for training, which for validation, and w
 
 Result: 6,300 / 1,350 / 1,350 clips (630 / 135 / 135 per class), 3,854 groups, and no group split across two sets. A test clip therefore never has a blurred or mirrored twin in the training set.
 
-There is no script in this folder, because the split was made by a script that also trains models.
+There is no script in this folder, because the split was made by a script that also trains models. To use the split, read `grouped_splits.csv` and select rows by the `split` column. To check it, `group_leakage_check.txt` lists the number of groups (3,854) and the number found in more than one split (0).
 
 The `file` column starts with `processed_features_v1/`. Add `03_feature_extraction/outputs/` in front of it to get the path in this repository.

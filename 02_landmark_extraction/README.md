@@ -14,8 +14,23 @@ This step turns each video into 21 hand points per frame, using MediaPipe Hands.
 
 1. It picks 96 frames at even spacing from the first frame to the last, so every clip has the same length.
 2. It runs MediaPipe Hands on each of those frames (one hand, detection and tracking confidence 0.5).
-3. If a hand is found, it saves the 21 points (x, y, z) and marks the frame valid. If not, it saves zeros and marks the frame invalid.
+3. If a hand is found, it saves the 21 points (x, y, z) and marks the frame valid. If not, it saves zeros and marks the frame invalid. This check is in `extract_video_landmarks()`: line 77 catches frames that could not be read from the video, and line 86 (`if result.multi_hand_landmarks:`) decides whether a hand was detected.
 4. It also saves a normalized copy: each frame's points minus the wrist point, divided by the distance from the wrist to the middle-finger knuckle. This removes where the hand is in the image and how big it looks.
+
+## The 21 landmarks
+
+MediaPipe numbers the points the same way in every frame. Each point takes 3 columns (x, y, z) in `raw_landmarks` and `norm_landmarks`, so point `j` is in columns `3j` to `3j+2`.
+
+| Index | Point |
+|---|---|
+| 0 | wrist |
+| 1 to 4 | thumb: base, two joints, tip |
+| 5 to 8 | index finger: knuckle, two joints, tip |
+| 9 to 12 | middle finger: knuckle, two joints, tip |
+| 13 to 16 | ring finger: knuckle, two joints, tip |
+| 17 to 20 | little finger: knuckle, two joints, tip |
+
+x and y are fractions of the image width and height (0 to 1). z is the depth relative to the wrist, as estimated by MediaPipe, in roughly the same scale as x.
 
 ## Output file contents
 
