@@ -46,6 +46,8 @@ x and y are fractions of the image width and height (0 to 1). z is the depth rel
 
 From the repository root: `python 02_landmark_extraction/code/extract_landmarks_v2.py`
 
+Before running it: the script only processes the classes listed in `CLASSES` (line 11), and the saved version lists only `"Mop"`. Set it to all 10 classes to process everything. It also skips any clip whose output file already exists, so with the saved outputs in place a rerun does nothing until `OUTPUT_DIR` (line 9) points at a new folder.
+
 ## Next step
 
 `03_feature_extraction/` reads `outputs/processed_landmarks_v2/`.
